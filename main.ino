@@ -21,10 +21,6 @@
 
 #define ID_MQTT "esp32_mqtt" // id mqtt (para identificação de sessão)
 
-// IMPORTANTE: Este deve ser único no broker, ou seja, se um client MQTT
-// tentar entrar com o mesmo id de outro já conectado ao broker,
-// o broker irá fechar a conexão de um deles.
-
 const char *SSID = "Wokwi-GUEST"; // SSID / nome da rede WI-FI que deseja se conectar
 const char *PASSWORD = "";        // Senha da rede WI-FI que deseja se conectar
 
